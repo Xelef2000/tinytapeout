@@ -12,8 +12,8 @@ output n is high if input n is high.
 
 ## How to test
 
-Explain how to use your project
+Connect buttons and leds
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+8 buttons and 8 leds
