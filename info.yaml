@@ -1,10 +1,10 @@
 # Tiny Tapeout project information (Wokwi project)
 project:
   wokwi_id:     434391222509479937       # Set this to the ID of your Wokwi project (the number from the project's URL)
-  title:        "test"      # Project title
+  title:        "4-Bit Adder"      # Project title
   author:       "Felix"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  "test"      # One line description of what your project does
+  description:  "4-Bit Adder"      # One line description of what your project does
   language:     "Wokwi" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -16,24 +16,24 @@ project:
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  ui[0]: "IN0"
-  ui[1]: "IN1"
-  ui[2]: "IN2"
-  ui[3]: "IN3"
-  ui[4]: "IN4"
-  ui[5]: "IN5"
-  ui[6]: "IN6"
-  ui[7]: "IN7"
+  ui[0]: "A0"
+  ui[1]: "A1"
+  ui[2]: "A2"
+  ui[3]: "A3"
+  ui[4]: "B0"
+  ui[5]: "B1"
+  ui[6]: "B2"
+  ui[7]: "B3"
 
   # Outputs
-  uo[0]: "OUT0"
-  uo[1]: "OUT1"
-  uo[2]: "OUT2"
-  uo[3]: "OUT3"
-  uo[4]: "OUT4"
-  uo[5]: "OUT5"
-  uo[6]: "OUT6"
-  uo[7]: "OUT7"
+  uo[0]: "LED0"
+  uo[1]: "LED1"
+  uo[2]: "LED2"
+  uo[3]: "LED3"
+  uo[4]: "LED4"
+  uo[5]: ""
+  uo[6]: ""
+  uo[7]: ""
 
   # Bidirectional pins
   uio[0]: ""
